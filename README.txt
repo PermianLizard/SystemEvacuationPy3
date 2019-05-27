@@ -1,4 +1,8 @@
-Include information such as author, requirements, etc.
+PyWeek 17 Entry
+===============
+
+Theme 'Moon'
+
 
 System Evacuation
 ===============
@@ -12,7 +16,7 @@ DEPENDENCIES:
 
 You might need to install some of these before running the game:
 
-  Python:     http://www.python.org/
+  Python 3:     http://www.python.org/
   Pyglet:     http://www.pyglet.org/
 
 
