@@ -2,7 +2,7 @@ import plib.scene
 import pyglet
 from game import const
 from game import font
-from game import game_scene as g
+from game import game_scene
 from game import instruct
 from game import starfield
 from plib.director import director
@@ -51,7 +51,7 @@ class MenuScene(plib.scene.Scene):
         super(MenuScene, self).on_key_press(symbol, modifiers)
 
         if symbol == pyglet.window.key.S:
-            director.push(g.game_scene)
+            director.push(game_scene.game_scene)
         if symbol == pyglet.window.key.I:
             director.push(instruct.instruct_scene)
         if symbol == pyglet.window.key.X:
