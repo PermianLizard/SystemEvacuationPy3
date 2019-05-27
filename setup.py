@@ -4,7 +4,7 @@ from game.const import APP_NAME, VERSION, PROJECT_DESC, PROJECT_URL
 
 def readme():
     try:
-        return open('README.txt').read()
+        return open('README.md').read()
     except:
         return ""
 
