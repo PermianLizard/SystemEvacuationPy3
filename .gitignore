@@ -71,3 +71,6 @@ bin/
 
 # Gimp
 *.xcf
+
+# Libraries
+pyglet/
